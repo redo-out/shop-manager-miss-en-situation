@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #0f4c81; /* en-tête, bouton, focus */
+  --color-bg: #f5f7fa; /* fond de la page */
+  --color-surface: #ffffff; /* cartes, formulaire, champs */
+  --color-text: #1a2433; /* texte principal */
+  --color-muted: #5b6576; /* texte secondaire */
+  --color-border: #d9e0e8; /* bordures */
+  --color-error-bg: #fdecec; /* fond du message d'erreur (bonus) */
+  --color-error-text: #b42318; /* texte du message d'erreur (bonus) */
+
+  /* Police de la maquette : Inter (Google Fonts), ou une police système */
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 0%;
+}
+nav {
+    background: #0F4C81;
+    color: white;
+    padding: 5px 0px 5px 5%;
+}
+
+main {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #E8EDF3;
+
+}
+
+#search-section {
+    display: flex;
+    padding: 20px 20px;
+    gap: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+#select-option {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#search-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#button {
+    width: 20%;
+}
+
+#select {
+    width: 80%;
+    height: 50px;
+}
+
+#search {
+    width: 80%;
+    height: 40px;
+}
+
+#trier-button {
+    position: absolute;
+    top: 280px;
+    width: 10%;
+    height: 40px;
+    background: #0F4C81;
+    color: white;
+}

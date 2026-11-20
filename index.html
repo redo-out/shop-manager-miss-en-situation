@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas Voyages – Explorer le monde</title>
+
+    <!-- Police Google Fonts : Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Si tu utilises un framework CSS (Bootstrap, Tailwind…), ajoute son lien ICI, AVANT style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- defer : le script s'exécute une fois le HTML chargé -->
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <h1>Atlas voyages</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Explorer le monde</h2>
+            <p>Choisis un continent, parcours les pays et trouve ta prochaine destination.</p>
+        </section>
+        <section id="search-section">
+            <div id="select-option">
+                <p>Continent</p>
+                <select name="" id="select"></select>
+            </div>
+            <div id="search-input">
+                <p>Rechercher un pays</p>
+                <input id="search" type="text" placeholder="Ex:morroco">
+            </div>
+            <div id="button">
+                <button type="button" id="trier-button">Trier par population</button>
+        </div>
+        </section>
+        <section>
+            <ul id="flags-placeholder">
+
+            </ul>
+        </section>
+    </main>
+  </body>
+</html>
